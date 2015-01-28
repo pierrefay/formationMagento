@@ -47,6 +47,11 @@
                     </store>
                 </entities>
             </itelios_store_resource>
+            <customer>
+                <rewrite>
+                    <customer>Itelios_Store_Model_Customer</customer>
+                </rewrite>
+            </customer>
         </models>
         <helpers>
             <itelios_store>
