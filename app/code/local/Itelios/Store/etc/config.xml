@@ -58,8 +58,8 @@
                 <observers>
                     <Itelios_Store_Model_Observer>
                         <type>singleton</type>
-                        <class>exemple/observer</class>
-                        <method> saveCmsPageObserve</method>
+                        <class>itelios_store/observer</class>
+                        <method>saveCmsPageObserve</method>
                     </Itelios_Store_Model_Observer>
                 </observers>
             </cms_page_prepare_save>

@@ -7,12 +7,10 @@ class Itelios_Store_IndexController extends Mage_Core_Controller_Front_Action
         $this->renderLayout();
     }
 
-    public function totoAction()
+    public function testhelperAction()
     {
-        $store = Mage::getModel('itelios_store/store');
-        $store->setName('ceci est un test');
-        $store->save();
-        die('test');
+        echo Mage::helper('itelios_store/data')->foisDeux(2);
+        die('');
     }
 
     public function postAction()
