@@ -6,6 +6,15 @@
         </Itelios_Store>
     </modules>
     <frontend>
+      <translate>
+        <modules>
+            <Itelios_Store>
+                <files>
+                    <default>Itelios_Store.csv</default>
+                </files>
+            </Itelios_Store>
+        </modules>
+    </translate>
         <routers>
             <iteliosstore>
                 <use>standard</use>
@@ -102,13 +111,5 @@
             </itelios_store>
         </menu>
     </adminhtml>
-    <translate>
-        <modules>
-            <Itelios_Store>
-                <files>
-                    <default>Itelios_Store.csv</default>
-                </files>
-            </Itelios_Store>
-        </modules>
-    </translate>
+  
 </config>
