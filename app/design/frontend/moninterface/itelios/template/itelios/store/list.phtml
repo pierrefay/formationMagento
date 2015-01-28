@@ -1,0 +1,17 @@
+<?php
+    echo $this->showList();
+?>
+<form id="myForm" name="myForm" action="<?php echo $this->getUrl('iteliosstore/index/post'); ?>" method="post">
+    <label for="name"><?php echo $this->__('Name') ?><span class="required">*</span></label><br />
+    <input id="name" name="name" class="input-text required-entry" />
+
+    <label for="description"><?php echo $this->__('Description') ?> <span class="required">*</span></label><br />
+    <textarea id="description" name="description"  class="input-text"></textarea>
+
+    <input type="submit" name="submit" value="<?php echo $this->__('Submit') ?>" />
+</form>
+<script type="text/javascript">
+    //< ![CDATA[
+    var customForm = new VarienForm('myForm');
+    //]]>
+</script>

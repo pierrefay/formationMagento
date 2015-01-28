@@ -1,0 +1,15 @@
+<layout version="0.1.0">
+
+    <default>
+
+    </default>
+
+    <iteliosstore_index_index>
+        <reference name="content">
+            <block type="itelios_store/list" name="itelios.store.list" template="itelios/store/list.phtml">
+                <action method="setMessage"><message>Ceci est un message !!</message></action>
+            </block>
+        </reference>
+    </iteliosstore_index_index>
+
+</layout>

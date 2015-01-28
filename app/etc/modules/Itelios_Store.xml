@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Itelios_Store>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Itelios_Store>
+    </modules>
+</config>
